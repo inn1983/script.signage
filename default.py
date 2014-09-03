@@ -97,7 +97,7 @@ while 1:
 	time.sleep(15)
 	while 1:
 		try:	
-			twstatus = api.user_timeline(screen_name="innn2011")[0]
+			twstatus = api.user_timeline(screen_name="cubiesignage")[0]
 			twittertext =twstatus.text.encode('utf_8')
 			ent = twstatus.entities
 			break
